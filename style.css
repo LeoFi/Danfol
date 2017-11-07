@@ -21,6 +21,14 @@ body{
 	font-family: Roboto;
 }
 
+
+/* BOOTSTRAP */
+@media (min-width: 1200px){
+	.container {
+		width: 1050px;
+	}
+}
+
 /* NAVIGATION */
 .navbar-inverse {
     min-height: 60px;
@@ -53,6 +61,12 @@ nav .nav{
     text-transform: uppercase;
     font-weight: 700;
 }
+.elementor-widget-button a.elementor-button, 
+.elementor-widget-button .elementor-button {
+    background-color: #37474f!important;
+	text-transform: uppercase;
+	color: white!important;
+}
 
 @media only screen and (min-width: 992px){
 	.nav {
@@ -73,6 +87,46 @@ nav .nav{
 	    outline: 5px solid #f9f9f9;
 	    border: none;
 	}
+}
+
+/* PAGE */
+.mainblogwrapper{
+	padding-top: 0!important;
+}
+.headline h2:after {
+    background: none;
+    content: "";
+    height: 0;
+    margin-left: 0;
+    position: initial;
+    top: 0;
+    width: 0;
+}
+.elementor h2{
+	text-transform: uppercase;
+	color: #37474f;
+	font-weight:700;
+	font-size:30px;
+	margin: 0;
+    padding-bottom: 0;
+	line-height: 40px;
+}
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
+	padding: 0;
+}
+.article-page{
+	padding: 0;
+	margin: 0;
+}
+.article-page p {
+    padding-bottom: 0;
+    margin: 0;
+	font-size: 15px;
+    line-height: 22px;
+	color: #37474f;
+}
+.nocomments{
+	display:none;
 }
 
 /* FOOTER */
