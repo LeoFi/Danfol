@@ -33,7 +33,12 @@ body{
 .navbar-inverse {
     min-height: 60px;
     padding: 10px 0 0;
-    border: none;
+	border: none;
+	margin: 0;
+}
+.navbar-collapse{
+	padding-right: 0;
+    padding-left: 0;
 }
 nav .container{
 	width: 100%;
@@ -41,10 +46,14 @@ nav .container{
 }
 nav .navbar-header{
 	float: none;
+	padding-bottom:10px;
 }
 nav .nav{
 	background-color: #f9f9f9;
 	border-bottom: 5px solid #36484e;
+}
+#nav.navbar-nav .lang-item{
+	vertical-align: middle;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
 	color: #36484e;
@@ -89,7 +98,7 @@ nav .nav{
 	}
 }
 
-/* PAGE */
+/* LANDING PAGE */
 .mainblogwrapper{
 	padding-top: 0!important;
 }
@@ -103,6 +112,7 @@ nav .nav{
     width: 0;
 }
 .elementor h2{
+	font-family: Roboto;
 	text-transform: uppercase;
 	color: #37474f;
 	font-weight:700;
@@ -125,9 +135,103 @@ nav .nav{
     line-height: 22px;
 	color: #37474f;
 }
+.article-page a:hover {
+    opacity: 0.8;
+	color: inherit;
+}
 .nocomments{
 	display:none;
 }
+.elementor-image-box-title{
+	color: #37474f!important;
+    text-transform: uppercase;
+    padding: 20px 0 !important;
+}
+
+/* PRODUKT PAGE */
+.two_blocks_produkt h4{
+	text-transform: capitalize;
+}
+.two_blocks_produkt .btn-collapse{
+	background-image: url(http://s708372516.online.de/wp-content/uploads/2017/11/plus_button.png);
+	background-size: 35px;
+	width: 35px;
+	height: 35px;
+	background-color: transparent;
+    border: 0;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.two_blocks_produkt .btn-collapse:focus {
+	outline: 0;
+}
+.two_blocks_produkt .btn-collapse:hover {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.two_blocks_produkt .btn-collapse[aria-expanded="true"]{
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.two_blocks_produkt p{
+	padding-bottom: 20px;
+}
+
+
+/* NEWSLETTER */
+#footer .newsletter{
+	background-color: #f2f2f2;
+	padding: 50px 0;
+}
+#footer .newsletter h2{
+	border: 5px solid;
+    padding: 5px 15px;
+    display: table;
+	margin: auto;
+	margin-bottom: 30px;
+}
+#footer .newsletter input[type=email]{
+	width:300px;
+	background-color: transparent;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+#footer .newsletter input[type=email]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #37474f;
+  }
+  #footer .newsletter input[type=email]::-moz-placeholder { /* Firefox 19+ */
+	color: #37474f;
+  }
+  #footer .newsletter input[type=email]:-ms-input-placeholder { /* IE 10+ */
+	color: #37474f;
+  }
+  #footer .newsletter input[type=email]:-moz-placeholder { /* Firefox 18- */
+	color: #37474f;
+  }
+#footer .newsletter input[type=submit]{
+	position: absolute;
+    background-image: url(http://s708372516.online.de/wp-content/uploads/2017/11/submit_newsletter.png);
+    background-size: 47px 54px;
+    width: 47px !important;
+    height: 54px;
+    background-color: transparent;
+    color: transparent;
+    border: 0;
+	padding: 0;
+	top: -24px;
+    margin-left: 20px;
+}
+#footer .newsletter input[type=submit]:focus {
+	outline: 0;
+	}
 
 /* FOOTER */
 #footer #footer-copyright{

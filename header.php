@@ -77,6 +77,5 @@
         <!-- /.container -->
     </nav>
     <div class="full-screen-img">
-        <?php $image = get_field('full-screen-img'); ?>
-        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+    <img src="http://s708372516.online.de/wp-content/uploads/2017/11/2448893330-1.jpg" class="attachment-full size-full" alt="" srcset="http://s708372516.online.de/wp-content/uploads/2017/11/2448893330-1.jpg 1600w, http://s708372516.online.de/wp-content/uploads/2017/11/2448893330-1-300x141.jpg 300w, http://s708372516.online.de/wp-content/uploads/2017/11/2448893330-1-768x360.jpg 768w, http://s708372516.online.de/wp-content/uploads/2017/11/2448893330-1-1024x480.jpg 1024w" sizes="(max-width: 1600px) 100vw, 1600px">
     </div>

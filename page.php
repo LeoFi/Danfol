@@ -31,7 +31,6 @@ end / breadcrumbs-->
     <div class="container">
         <div class="row">
             <div class="mainblogcontent">
-              
                 <div class="col-md-12">
                     <!-- *** Post loop starts *** -->
 
